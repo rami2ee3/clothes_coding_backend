@@ -1,0 +1,9 @@
+require('babel-register');
+
+const path = require('path');
+require('dotenv').config({path: '.env'})
+
+module.exports = {
+  'config': path.resolve('src/framework/orm', 'config.js'),
+  'models-path': path.resolve('src/framework', 'models')
+}

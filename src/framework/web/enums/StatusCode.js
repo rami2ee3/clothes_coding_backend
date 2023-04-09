@@ -1,0 +1,9 @@
+export default {
+  SUCCESS: 200,
+  UNAUTHORIZED: 401,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+  TIMEOUT: 408,
+  CONFLICT: 409,
+  ERROR: 500
+};
